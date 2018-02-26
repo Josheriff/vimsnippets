@@ -1,0 +1,38 @@
+snippet desc "describe"
+describe('`!p snip.rv = fn.split(os.extsep)[0]`'):
+	$0
+
+endsnippet
+
+snippet it "it"
+it('${1:It}'):
+	$0
+
+endsnippet
+
+snippet context "context"
+context('${1:Context}'):
+	$0
+
+endsnippet
+
+
+snippet bee "beforeEach"
+beforeEach:
+	$0
+
+endsnippet
+
+
+snippet before "before"
+before:
+	$0
+
+endsnippet
+
+
+# expect
+
+snippet eq "expect(x).toEqual(y)"
+expect($1).to(equal($2));
+endsnippet
