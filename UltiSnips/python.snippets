@@ -1,19 +1,8 @@
 snippet desc "describe"
-describe('`!p snip.rv = fn.split(os.extsep)[0]`'):
-	$0
-
-endsnippet
-
-snippet it "it"
-it('${1:It}'):
-	$0
-
-endsnippet
-
-snippet context "context"
-context('${1:Context}'):
-	$0
-
+with describe('describe text'):
+    with context('context text'):
+        wit it('with it text'):
+            $0
 endsnippet
 
 
