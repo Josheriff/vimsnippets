@@ -1,3 +1,23 @@
 snippet cl "console.log"
 console.log(${1:} ,'<<<<< $1 value')
 endsnippet
+
+snippet describe "describe"
+describe('describe text() => {
+  beforeEach(() => {
+    return initializeDatabaseBeforeEachTest();
+  });
+
+  test('the tipical it text', () => {
+    expect(aFunctionWithTwoParamsThatReturnsTrue(param1, 'aText')).toBe(true);
+  });
+
+  });
+});
+endsnippet
+
+snippet test "test"
+test('the tipical it text', () => {
+   expect(aFunctionWithTwoParamsThatReturnsTrue(param1, 'aText')).toBe(true);
+ });
+endsnippet
