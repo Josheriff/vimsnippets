@@ -6,30 +6,26 @@ with describe('describe text'):
 endsnippet
 
 snippet describe "describe"
-with describe('describe text'):
-    $0
+with describe('$0'):
 endsnippet
 
 snippet context "context"
-with context('context text'):
-        $0
+with context('$0'):
 endsnippet
 
 
 snippet it "it"
-with it('it text'):
-			$0
+with it('$0'):
 endsnippet
 
 snippet bee "beforeEach"
-beforeEach:
+with before.each:
 	$0
-
 endsnippet
 
 
 snippet before "before"
-before:
+with before:
 	$0
 
 endsnippet
