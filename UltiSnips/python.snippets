@@ -1,8 +1,7 @@
 snippet test "describe"
-with describe('describe text'):
-    with context('context text'):
-        with it('with it text'):
-            $0
+with describe('$0'):
+    with context(''):
+        with it(''):
 endsnippet
 
 snippet describe "describe"
@@ -18,7 +17,7 @@ snippet it "it"
 with it('$0'):
 endsnippet
 
-snippet bee "beforeEach"
+snippet be "beforeEach"
 with before.each:
 	$0
 endsnippet
